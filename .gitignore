@@ -110,4 +110,7 @@ Temporary Items
 .history
 .ionide
 
+# Build dir
+out
+
 # End of https://www.toptal.com/developers/gitignore/api/macos,cmake,c++,visualstudiocode,ninja
