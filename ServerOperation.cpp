@@ -19,7 +19,7 @@ int solution(vector<int> players, int m, int k) {
         // 필요한 서버 개수
         int needed = players[i] / m;
         
-        // 추가로 필요한 서버 개수 계산
+        // 추가로 필요한 서버 개수 계산 후 반영
         if (current < needed) {
             int diff = needed - current;
             count[i] = diff;
