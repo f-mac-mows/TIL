@@ -24,6 +24,7 @@ string intToString(int seconds) {
 string solution(string video_len, string pos, string op_start, string op_end, vector<string> commands) {
     // "mm:ss"
     string answer = "";
+    // 초로 변환
     int v_len = stringToInt(video_len);
     int p = stringToInt(pos);
     int start = stringToInt(op_start);
