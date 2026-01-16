@@ -29,6 +29,7 @@ string solution(string video_len, string pos, string op_start, string op_end, ve
     int start = stringToInt(op_start);
     int end = stringToInt(op_end);
 
+    // 커맨드 로직
     for (auto c : commands) {
         if (p >= start && p <= end) {
             p = end;
